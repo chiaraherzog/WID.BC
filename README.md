@@ -8,7 +8,7 @@ THE WID_BC function uses a methylation beta matrix and returns the WID-BC-index.
 Install this package via:
 
 ```
-devtools::install_github("WID.BC"")
+devtools::install_github("WID.BC")
 ```
 
 
