@@ -9,8 +9,8 @@
 
 WID_BC <- function(beta){
 
-  w <- coefficients
-  scaling <- scaling
+  w <- WID.BC::coefficients
+  scaling <- WID.BC::scaling
 
   # compute index
   intersect <- intersect(names(w), rownames(beta))
