@@ -27,6 +27,22 @@ The use is as follows:
 
 `WID_BC(beta)`
 
+# Examples
+
+Example dataset
+
+```{r fig.align  = "center", fig.width = 2.5, fig.height = 3.5}
+
+library(WID.BC)
+data %>%
+  ggplot(aes(x = type,
+             y = WID_BC)) +
+  geom_violin() +
+  geom_boxplot(width = 0.1) +
+  xlab("") +
+  ylab("WID-BC-index")
+```
+
 # Reference
 
 [1] Barrett, J., Herzog., C., et al. (2021). "The WID-BC-index identifies women with primary poor prognostic breast cancer based on DNA methylation in cervical samples" (under review)
