@@ -5,8 +5,17 @@ Easy calculation of the WID-BC-index (Barrett J., Herzog C., et al., 2021).
 
 THE WID_BC function uses a methylation beta matrix and returns the WID-BC-index.
 
-Example use:
+Install this package via:
 
-`index <- WID_BC(beta_matrix)`
+```
+devtools::install_github("WID.BC"")
+```
+
+
+# Example use:
+
+```
+index <- WID_BC(beta_matrix)
+```
 
 
