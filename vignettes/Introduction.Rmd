@@ -1,0 +1,32 @@
+---
+title: "Introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# General information
+
+The WID-BC-index is computed using methylation data to highlight the potential epigenetic risk score. 
+
+The package is aimed to enable research use of the WID-BC-index by facilitating computation from methylation data.
+
+The input is a beta methylation matrix, for instance derived after quality control and normalisation of data obtained from the Illumina MethylationEPIC (preferred) or Illumina Methylation450k Array (caveat: not all WID-BC-index CpGs are represented on the 450k array). 
+
+The use is as follows:
+
+`WID_BC(beta)`
+
+# Reference
+
+[1] Barrett, J., Herzog., C., et al. (2021). "The WID-BC-index identifies women with primary poor prognostic breast cancer based on DNA methylation in cervical samples" (under review)

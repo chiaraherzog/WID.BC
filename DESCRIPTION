@@ -1,0 +1,22 @@
+Package: WID.BC
+Title: Computation of the WID-BC-index from methylation data
+Version: 1.0
+Authors@R: 
+    person(given = "Chiara",
+           family = "Herzog",
+           role = c("aut", "cre"),
+           email = "chiara.herzog@uibk.ac.at",
+           comment = c(ORCID = "0000-0002-1572-498X"))
+Description: This package uses Illumina EPIC array methylation data to compute the WID-BC index.
+License: Research use only
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+biocViews:
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
